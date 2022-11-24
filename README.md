@@ -2,7 +2,7 @@ _Work in progress._
 
 # Words of Tori Amos – A Tori Amos Lyrics Twitter Bot
 
-![Screenshot of song lyrics being tweeted from the Words of Tori Amos Twitter account]('./public/wot-ss.png')
+![Screenshot of song lyrics being tweeted from the Words of Tori Amos Twitter account]('https://raw.githubusercontent.com/meowwwls/words-of-tori-amos-bot/main/public/wot-ss.png?token=GHSAT0AAAAAAB3SEWHXVLKBACU5HT7DKRISY37BWBA')
 
 A fun way of learning more about Node, bots that don't cause harm, serverless functions, and the Twitter API. A daily dose (or two) of lyrics from my favorite musician, Tori Amos.
 
