@@ -1,0 +1,27 @@
+{
+  "name": "words-of-tori-amos-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meowwwls/words-of-tori-amos-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meowwwls/words-of-tori-amos-bot/issues"
+  },
+  "homepage": "https://github.com/meowwwls/words-of-tori-amos-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "oauth": "^0.10.0",
+    "serverless-secrets-plugin": "^0.1.0",
+    "twitter-api-v2": "^1.12.9"
+  }
+}
