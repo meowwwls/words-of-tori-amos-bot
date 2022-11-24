@@ -24,11 +24,9 @@ const getLyric = () => {
 
 module.exports.tweet = async (event) => {
   const lyric = getLyric();
-  console.log(lyric);
   const songHash = lyric.song.replace(/\s/g, "");
-  const response = await twitterRW.v1.tweet(
-    `${lyric.lyric}\n#ToriAmos #${songHash}`
-  );
+  const tweetContent = `${lyric.lyric}\n #ToriAmos #${songHash}`;
+  const response = await twitterRW.v1.tweet(tweetContent);
 
   return response;
 };
