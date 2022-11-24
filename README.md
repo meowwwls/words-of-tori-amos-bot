@@ -9,6 +9,7 @@ A fun way of learning more about Node, bots that don't cause harm, serverless fu
 To make the process of adding new lyrics easier on myself, I created a bare-bones Express app that I run locally when needed, using a form to write to a `.json` file containing all of the lyrics.
 
 **To run:**
+
 `node app/app.js`
 
 Navigate to **[url=http://localhost:3000/](http://localhost:3000/)**
@@ -20,6 +21,7 @@ Before the file is updated, the lyrics are sorted by album title, just to make s
 ## Deploying to AWS Lambda Using Serverless and Running Routinely
 
 **Run:**
+
 `sls deploy`
 
-Using _CloudWatch Event_ trigger in the AWS Lambda Function config, the bot should Tweet a random lyric every 15 hours (or however long I choose).
+Using a _CloudWatch Event_ trigger in the AWS Lambda Function config, the bot should Tweet a random lyric every 15 hours (or however long I choose).
