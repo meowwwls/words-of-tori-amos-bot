@@ -10,7 +10,7 @@ const getLyrics = () => {
 };
 
 const saveLyrics = (lyrics) => {
-  fs.writeFileSync("./data/lyrics.json", JSON.stringify(lyrics));
+  fs.writeFileSync("./lyrics/lyrics.json", JSON.stringify(lyrics));
 };
 
 const sortLyrics = (lyrics) => {
